@@ -1,0 +1,21 @@
+{
+  "name": "backendfortodo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
